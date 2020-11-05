@@ -1,7 +1,7 @@
 # Your code goes here!
 require 'pry' 
 
-class Anagram :word
+class Anagram 
     # attr_accessor :word
 
   
@@ -12,7 +12,7 @@ class Anagram :word
    def match(arr)
     array = []
     arr.each do |ana|
-        binding.pry 
+        # binding.pry 
         if ana.split("").sort == @word.split("").sort
             array << ana 
         end 
